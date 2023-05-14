@@ -17,7 +17,7 @@ import multiprocessing
 import time as tt
 import glob
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 ENV_NAME = 'GraphEnv-v1'
 graph_topology = 0 # 0==NSFNET, 1==GEANT2, 2==Small Topology, 3==GBN
